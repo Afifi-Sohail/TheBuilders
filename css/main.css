@@ -1,0 +1,605 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'cairo', sans-serif;
+    text-transform: capitalize;
+}
+
+img {
+    width: 100%;
+}
+
+.active {
+    color: #00bfdb
+}
+
+span.line {
+    display: inline-block;
+    width: 100px;
+    background: #00bfdb;
+    height: 5px;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+
+/* Start Navbar Style */
+
+nav {
+    box-shadow: 0 0.0625rem 0.375rem 0 rgb(0 0 0 / 10%);
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+}
+
+nav .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+nav .logo {
+    line-height: 40px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .logo span.min-logo {
+    display: inline-block;
+    background-color: #00bfdb;
+    border-radius: 25px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-top: 3px;
+}
+
+nav ul li a {
+    margin: 15px 10px;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+    color: #000;
+    transition: .5s color ease-in-out;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #00bfdb;
+}
+
+nav .link {
+    text-align: center;
+}
+
+nav .link a {
+    text-decoration: none;
+}
+
+nav .link a i {
+    color: #00bfdb;
+    font-size: 24px;
+    line-height: 60px;
+    margin: 0 2px;
+    transition: .5s all ease-in-out;
+}
+
+nav .link a:hover i {
+    color: #00a7bd;
+}
+
+nav .list-nav {
+    color: #00bfdb;
+    font-size: 25px;
+    display: none;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+/* End Navbar Style */
+
+
+/* Start Header Style */
+
+header {
+    padding: 130px 0;
+    background-image: url(../images/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .content-header {
+    text-align: center;
+}
+
+header .content-header h1 {
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight: bold;
+    color: #00bfdb;
+}
+
+header .content-header p {
+    font-size: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+header .content-header button {
+    background-color: #00bfdb;
+    border: 0;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 5px 35px;
+    outline: 0;
+    font-weight: bold;
+    color: #fff;
+    transition: .2s all ease-in-out;
+    border: 2px solid #00bfdb;
+}
+
+header .content-header button:hover {
+    background-color: transparent;
+    color: #00bfdb;
+}
+
+
+/* End Header Style */
+
+
+/* Start Services Style */
+
+.services {
+    padding: 40px 0
+}
+
+.services .up-content {
+    text-align: center;
+    margin: auto;
+}
+
+.services .up-content h3 {
+    color: #00bfdb;
+    font-size: 33px;
+    margin: 40px 0 10px;
+    font-weight: bold;
+}
+
+.services .up-content p {
+    color: #626262;
+}
+
+.services .content {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 50px 0;
+    padding: 40px 10px;
+}
+
+.services .content i {
+    font-size: 90px;
+    color: #00bfdb;
+    margin: 10px 0 20px;
+}
+
+.services .content h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.services .content p {
+    color: #626262;
+    font-size: 18px;
+}
+
+.services .last-content {
+    margin: 50px 0;
+    text-align: right;
+}
+
+.services .last-content h3 {
+    margin: 110px 0 0;
+    color: #00bfdb;
+    font-weight: bold;
+}
+
+.services .last-content h3.m-top {
+    margin: 180px 0 0;
+}
+
+.services .last-content p {
+    color: #626262;
+    margin-top: 10px;
+}
+
+.services .last-content .image {
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* End Services Style */
+
+
+/* Start About Us Style */
+
+.about-us {
+    margin-bottom: 150px;
+}
+
+.about-us .up-content {
+    text-align: center;
+    margin: 100px auto 50px;
+}
+
+.about-us .up-content h3 {
+    color: #00bfdb;
+    font-size: 33px;
+    font-weight: bold;
+    margin: 40px 0 10px;
+}
+
+.about-us .up-content p {
+    color: #626262;
+}
+
+.about-us .content-about-us {
+    text-align: right;
+    margin: 20px 0 50px;
+    padding: 0 20px;
+}
+
+.about-us .content-about-us h3 {
+    margin: 110px 0 0;
+    color: #00bfdb;
+    font-weight: bold;
+}
+
+.about-us .content-about-us p {
+    margin-top: 10px;
+    color: #626262;
+}
+
+.about-us .image-about-us {
+    width: 80%;
+    overflow: hidden;
+    margin: 20px 0 50px;
+}
+
+.about-us .last-content {
+    text-align: center;
+    margin: 5px;
+}
+
+.about-us .last-content .up-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 200px;
+    margin: 20px auto;
+}
+
+.about-us .last-content .image-hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: transform .5s ease-in-out;
+}
+
+.about-us .last-content .up-image:hover .image-hover {
+    transform: scale(1.05) rotate(10deg);
+}
+
+.about-us .last-content .up-image .image-1 {
+    background-image: url(../images/image-mohamed.jpg);
+}
+
+.about-us .last-content .up-image .image-2 {
+    background-image: url(../images/image-mahmoud.jpg);
+}
+
+.about-us .last-content h3 {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.about-us .last-content p {
+    font-size: 17px;
+    color: #626262
+}
+
+.about-us .last-content a {
+    text-decoration: none;
+}
+
+.about-us .last-content a i {
+    font-size: 24px;
+    color: #00bfdb;
+    margin: 0 2px;
+    transition: .5s all ease-in-out;
+}
+
+.about-us .last-content a:hover i {
+    color: #00a7bd;
+}
+
+
+/* End About Us Style */
+
+
+/* Start Contact Us Style */
+
+.contact-us {
+    text-align: center;
+    padding: 40px;
+    background-color: #eee;
+}
+
+.contact-us .child-contact {
+    margin: auto;
+}
+
+.contact-us .child-contact h3 {
+    font-size: 33px;
+    color: #00bfdb;
+    font-weight: bold;
+    margin: 40px 0 10px;
+}
+
+.contact-us .child-contact .div-contact span {
+    color: #626262
+}
+
+.contact-us .child-contact .div-contact a {
+    color: #00bfdb
+}
+
+.contact-us .child-contact .div-contact i {
+    color: #00bfdb;
+    font-size: 17px;
+    margin: 0 2px;
+}
+
+
+/* End Contact Us Stytle */
+
+
+/* Start Footer Style */
+
+footer {
+    padding: 15px 0;
+    background-color: #00bfdb;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    direction: ltr;
+    font-weight: bold;
+}
+
+footer a {
+    color: #fff;
+    font-size: 18px;
+    transition: .5s all ease-in-out;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #eee
+}
+
+
+/* End Footer Style */
+
+
+/* Staret Up Page Style */
+
+.scroll-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: #00bfdb;
+    font-size: 25px;
+    border-radius: 20px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    text-align: center;
+    line-height: 33px;
+    cursor: pointer;
+    transition: .5s all ease-in-out;
+}
+
+.up-page:hover {
+    background-color: #00a7bd
+}
+
+
+/* End Up Page Style */
+
+
+/* Start Media Style */
+
+
+/* Media For Max Width  991 px */
+
+@media (max-width:991px) {
+    /* Nav Meadia */
+    nav ul {
+        display: none;
+    }
+    nav ul li {
+        display: block;
+        text-align: right;
+        border-bottom: 1px solid #00bfdb;
+    }
+    nav ul li a {
+        margin: 10px 0px 0px;
+    }
+    nav .logo {
+        text-align: right;
+    }
+    nav .link {
+        text-align: right;
+        display: none;
+    }
+    nav .list-nav {
+        display: block;
+    }
+    /* Header Media */
+    header {
+        padding: 100px 0 160px;
+    }
+    /* Services Meadia */
+    .services .last-content h3 {
+        margin: 80px 0 0;
+    }
+    /* About Us Media */
+    .about-us .content-about-us h3 {
+        margin: 80px 0 0;
+    }
+}
+
+@media (max-width:767px) {
+    /* Nav Meadia */
+    nav .logo a {
+        font-size: 20px;
+    }
+    nav .logo span.min-logo {
+        width: 25px;
+        height: 25px;
+        line-height: 26px;
+    }
+    /* Header Media */
+    header {
+        padding: 70px 0 10px;
+    }
+    header .content-header {
+        margin: 0 auto 80px;
+    }
+    header .content-header h1 {
+        font-size: 30px;
+        margin-top: 10px;
+        color: #000;
+    }
+    header .content-header p {
+        font-size: 17px;
+    }
+    header .content-header button {
+        font-size: 16px;
+        padding: 3px 23px;
+    }
+    /* Services Media */
+    .services .up-content h3 {
+        font-size: 22px;
+    }
+    .services .up-content p {
+        font-size: 15px;
+    }
+    .services .content {
+        margin: 40px 0;
+        padding: 20px 10px;
+    }
+    .services .content i {
+        font-size: 60px;
+    }
+    .services .content h3 {
+        font-size: 17px;
+    }
+    .services .content p {
+        font-size: 14px;
+    }
+    .services .last-content {
+        margin: 0px auto 50px;
+        text-align: center;
+    }
+    .services .last-content h3 {
+        margin: 30px 0 0;
+        font-size: 22px;
+    }
+    .services .last-content h3.m-top {
+        margin: 30px 0 0;
+    }
+    .services .last-content p {
+        font-size: 15px;
+    }
+    /* About US Media */
+    .about-us {
+        margin-bottom: 70px;
+    }
+    .about-us .up-content {
+        margin: 0px auto 50px;
+    }
+    .about-us .up-content h3 {
+        font-size: 22px;
+    }
+    .about-us .up-content p {
+        font-size: 15px;
+    }
+    .about-us .image-about-us {
+        width: 80%;
+        margin: 20px auto 50px;
+    }
+    .about-us .content-about-us h3 {
+        margin: 10px 0 0;
+    }
+    .about-us .last-content h3 {
+        font-size: 17px;
+    }
+    .about-us .last-content p {
+        font-size: 12px;
+    }
+    /* Contact US Media */
+    .contact-us .child-contact h3 {
+        font-size: 22px;
+    }
+    .contact-us .div-contact span {
+        font-size: 12px;
+    }
+    .contact-us .child-contact .div-contact a {
+        font-size: 12px;
+    }
+    .contact-us .child-contact .div-contact i {
+        font-size: 13px;
+    }
+    /* Footer Media */
+    footer {
+        font-size: 13px;
+    }
+}
+
+
+/* End Media Style */
